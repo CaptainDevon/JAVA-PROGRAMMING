@@ -5,6 +5,12 @@ public class loop {
         {
             System.out.println("hello");
         }
+        int j=0;
+        while(j<5)
+        {
+            System.out.println("i am divyansh");
+            j++;
+        }
     }
     
 }
