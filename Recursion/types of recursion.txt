@@ -1,3 +1,5 @@
 1)head recursion:function call operation is done  before the logic execution
 2)tail recursion:logical execution done before the function call operation
-3)tree recursion:
+3)tree recursion:when we gat multiple function operation calls from the same function
+                 diagramatically it will form a call tree 
+
