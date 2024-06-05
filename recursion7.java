@@ -1,9 +1,9 @@
 class recursion7 {
 
-    // Driver code
+
     public static void main(String[] args)
     {
-        //variables initialization
+        
         int num = 1634, reverse = 0;
         int len = order(num);
 
