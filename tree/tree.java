@@ -46,6 +46,7 @@ public class tree {
     //breadth first traversal
 
 
+    
     public static void main(String[] args) {
         treenode root = new treenode(1);
         root.l = new treenode(2);
