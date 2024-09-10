@@ -37,8 +37,4 @@ The repository is organized into the following subfolders:
    - Searching and Sorting algorithms (Binary Search, Merge Sort, Quick Sort)
    - Graph algorithms (BFS, DFS)
 
-## How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/JAVA-Programming.git
