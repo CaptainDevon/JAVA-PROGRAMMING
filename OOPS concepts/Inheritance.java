@@ -11,7 +11,6 @@
 
 //parent class
 
-import java.util.*;
 class Shape {
     String color;
 
