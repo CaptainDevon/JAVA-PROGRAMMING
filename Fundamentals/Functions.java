@@ -1,4 +1,4 @@
-public class Methods {
+public class Functions {
     
     //methods is also called as function
 
