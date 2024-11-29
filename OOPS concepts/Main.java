@@ -28,9 +28,30 @@ public class Main {
         s3.studentinfo();
 
         System.out.println("-------------------------------------------------------------------------------");
-        People p=new People();
+        People p = new People();
         p.display();
         p.display("Software engineer");
-        p.display("Software engineer",20 );
+        p.display("Software engineer", 20);
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Triangle t = new Triangle();
+        t.area();
+        t.area(2, 5);
+
+        Child c=new Child();
+        c.printInfoGF();
+        c.printInfoF();
+        c.printInfoC();
+
+        Orange o=new Orange();
+        Apple a=new Apple();
+        o.fruitInfo();
+        o.fruitInfo("Orange", "Round");
+        a.fruitInfo();
+        a.fruitInfo("Red");
+
+        C ch=new C();
+        ch.Info();
+        ch.cInfo();
     }
 }
