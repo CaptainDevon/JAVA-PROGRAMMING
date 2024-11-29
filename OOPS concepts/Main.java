@@ -15,5 +15,16 @@ public class Main {
         pen2.write();
         pen2.printColour();
         pen2.printType();
+
+        //non parameterized constructor
+        Student s1=new Student();
+        s1.studentinfo();
+
+        //parameterized constructor
+        Student s2=new Student("diyansh Sinha",20);
+        s2.studentinfo();
+
+        Student s3=new Student(s2);
+        s3.studentinfo();
     }
 }
