@@ -82,7 +82,7 @@ The repository is organized into the following subfolders:
 To use this repository:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CaptainDevon/JAVA-PROGRAMMINGg.git
+   git clone https://github.com/CaptainDevon/JAVA-PROGRAMMING.git
 
    - Functions and methods
    - Exception handling
