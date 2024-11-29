@@ -57,9 +57,22 @@ public class Main {
         ch.Info();
         ch.cInfo();
         System.out.println("-------------------------------------------------------------------------------");
-        Account a1=new Account();
-        a1.name="divyansh sinha";
+        Account a1 = new Account();
+        a1.name = "divyansh sinha";
         a1.setPassword("asdhjkdbwjdab");
         System.out.println(a1.getpassword());
+        System.out.println("-------------------------------------------------------------------------------");
+        Horse h = new Horse();
+        h.walk();
+        Chicken chik = new Chicken();
+        chik.walk();
+
+        Horse nh = new Horse();
+        nh.eat();
+        System.out.println("-------------------------------------------------------------------------------");
+
+        Cow cow=new Cow();
+        cow.eat();
+        cow.walk();
     }
 }
