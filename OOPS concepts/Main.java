@@ -1,3 +1,6 @@
+import java.util.*;
+import bank.Account;
+
 public class Main {
     public static void main(String[] args) {
         Pen pen1 = new Pen();
@@ -38,20 +41,25 @@ public class Main {
         t.area();
         t.area(2, 5);
 
-        Child c=new Child();
+        Child c = new Child();
         c.printInfoGF();
         c.printInfoF();
         c.printInfoC();
 
-        Orange o=new Orange();
-        Apple a=new Apple();
+        Orange o = new Orange();
+        Apple a = new Apple();
         o.fruitInfo();
         o.fruitInfo("Orange", "Round");
         a.fruitInfo();
         a.fruitInfo("Red");
 
-        C ch=new C();
+        C ch = new C();
         ch.Info();
         ch.cInfo();
+        System.out.println("-------------------------------------------------------------------------------");
+        Account a1=new Account();
+        a1.name="divyansh sinha";
+        a1.setPassword("asdhjkdbwjdab");
+        System.out.println(a1.getpassword());
     }
 }
