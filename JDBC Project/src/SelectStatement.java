@@ -8,7 +8,7 @@ import java.sql.Statement;
 public class SelectStatement {
     private static String url = "jdbc:mysql://localhost:3306/sampledb";
     private static String userName = "root";
-    private static String password = "Bla Bla";   // i know the password just not showing
+    private static String password = "Bla Bla";  // i know the password just not showing
 
     public static void main(String[] args) {
         try {
@@ -28,8 +28,7 @@ public class SelectStatement {
                 String name = resultSet.getString("name");
                 int age = resultSet.getInt("age");
                 double marks = resultSet.getDouble("marks");
-                System.out.println(
-                        "   " + id + "   " + "   " + name + "   " + "   " + age + "    " + "   " + marks + "   ");
+                System.out.println("   " + id + "   " + "   " + name + "   " + "   " + age + "    " + "   " + marks + "   ");
 
             }
 
