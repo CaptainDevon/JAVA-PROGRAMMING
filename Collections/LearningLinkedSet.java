@@ -9,5 +9,6 @@ public class LearningLinkedSet {
         llset.add(11);
         llset.add(2);
         System.out.println(llset);
+        // we cannot do this llset.add(3,10);
     }
 }
