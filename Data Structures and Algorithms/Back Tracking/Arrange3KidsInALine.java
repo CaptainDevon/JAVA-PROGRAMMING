@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Arrange3KidsInALine {
 
     public static void main(String args[]) {
