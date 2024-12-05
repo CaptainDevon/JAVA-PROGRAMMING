@@ -1,6 +1,6 @@
 public class ImplementationUsingLinkedList {
     public static void main(String[] args) {
-        Stack s = new Stack();
+        LLStack s = new LLStack();
         s.push(1);
         s.push(2);
         s.push(3);
@@ -37,7 +37,7 @@ class Node {
 
 }
 
-class Stack {
+class LLStack {
     private Node head;
 
     public boolean isEmpty() {
