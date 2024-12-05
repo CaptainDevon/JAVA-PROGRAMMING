@@ -11,5 +11,11 @@ public class Main {
         head.insertEnd(10);
         head.insertInBetween(-1, 5);
         head.display();
+        head.deleteFirst();
+        head.display();
+        head.deleteEnd();
+        head.display();
+        head.deleteInMiddle(3);
+        head.display();
     }
 }
