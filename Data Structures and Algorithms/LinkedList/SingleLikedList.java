@@ -1,18 +1,3 @@
-public class SingleLikedList {
-    public static void main(String[] args) {
-        ListOperations head = new ListOperations();
-        head.insertFirst(0);
-        head.insertFirst(1);
-        head.insertFirst(2);
-        head.insertFirst(3);
-        head.insertFirst(4);
-        head.insertFirst(6);
-        head.insertEnd(10);
-        head.insertInBetween(-1, 5);
-        head.display();
-    }
-}
-
 class Node {
     private int data;
     private Node next;
