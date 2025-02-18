@@ -20,7 +20,7 @@ public class NumberGuessingGame {
             }
             else 
             {
-                System.out.print("You have Guessed the number correctly");
+                System.out.println("You have Guessed the number correctly");
                 break;
             }
         }
