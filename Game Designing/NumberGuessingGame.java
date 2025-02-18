@@ -26,6 +26,7 @@ public class NumberGuessingGame {
         }
         System.out.println("press enter to exit");
         s.nextLine();
+        s.nextLine();
         s.close();
     }
 }
