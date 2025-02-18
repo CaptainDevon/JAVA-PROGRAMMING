@@ -36,6 +36,7 @@ public class TicTacToe {
         {
             System.out.println("It's a tie!!");
         }
+        s.nextLine();
         s.close();
     }
 }
