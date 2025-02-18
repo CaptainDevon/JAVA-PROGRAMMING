@@ -47,6 +47,8 @@ public class RockPaperScissors {
             if(choice=='n') break;
         }
         System.out.println("Thanks for playing!");
+        System.out.println("press enter key to exit");
+        s.nextLine();
         s.close();
     }
 }
