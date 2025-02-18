@@ -95,7 +95,7 @@ public class HangMan {
 
 class Words
 {
-    private List<String> dictionary = new ArrayList<>(List.of(
+    private final List<String> dictionary = new ArrayList<>(List.of(
             // words starting with 'a'
             "apple", "ant", "astronaut", "aardvark", "albatross", "anchor", "arrow", "ambulance", "artist", "archer",
             "almond", "apartment", "apology", "army", "avocado", "axe", "armadillo", "amphibian", "apricot", "adventure",
