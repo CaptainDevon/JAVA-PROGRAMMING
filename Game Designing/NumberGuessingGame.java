@@ -24,7 +24,8 @@ public class NumberGuessingGame {
                 break;
             }
         }
-
+        System.out.println("press enter to exit");
+        s.nextLine();
         s.close();
     }
 }
