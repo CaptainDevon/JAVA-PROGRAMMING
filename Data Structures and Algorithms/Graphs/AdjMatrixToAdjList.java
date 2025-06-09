@@ -36,7 +36,5 @@ public class AdjMatrixToAdjList {
             }
             System.out.println();
         }
-        
-        
-    }
+    } 
 }
